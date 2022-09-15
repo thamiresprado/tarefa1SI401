@@ -1,0 +1,87 @@
+h1{
+    color: #333333;
+}
+
+h4, h3{
+    color: #4F4F4F;
+}
+
+body{
+    overflow-x: hidden; /*scroll horizontal*/
+}
+
+header {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-family: 'Ruda', sans-serif;
+    color: #4F4F4F;
+    width: 100%;
+    height: 48px;
+    text-align: right;
+    margin-top: -10px;
+    margin-bottom:-5px;
+}
+
+hr {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.content1 {
+    display:flex;
+    flex-direction:row;
+    width: 100%;
+
+}
+
+.content1-text{
+    left: 56px;
+}
+
+.content1-text-title {
+    margin-top: 140px;
+    margin-left: 20px;
+    font-size: 30px;
+    width: 720px;
+    height: 200px;
+}
+
+.content1-text-button {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.content1-image {
+    right: 56px;
+    width: 590px;
+    height: 600px;
+}
+
+.content-banner {
+    width: 100%;
+    height: 270px;
+    border-top: 1px solid #828282;
+    border-bottom: 1px solid #828282;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+
+}
+
+.content-card{
+    padding: 60px;
+}
+
+.imagecard{
+    width: 85px;
+    height: 80px;
+}
+
+.textcard{
+    width: 240px;
+    height: 55px;
+    text-align: center;
+}
